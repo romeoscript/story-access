@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth; }
+
+#intro {
+ background-image: url('../img/panorama-3094696_1920.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ animation: animate 28s ease-in-out infinite;
+}
+  @keyframes animate{
+    0%,100%{
+      background-image: url('../img/panorama-3094696_1920.jpg');
+    }
+    25%{
+      background-image: url('../img/mat.jpg');
+    }
+    50%{
+      background-image: url('../img/mat2.jpg');
+    }
+    75%{
+      background-image: url('../img/kuala-lumpur.jpg');
+    }
+    /* 100%{
+      background-image: url('./image/.jpg');
+    } */
+  }
+
+.top-nav-collapse {
+  background-color: #3949ab !important; }
+
+.navbar:not(.top-nav-collapse) {
+  background: rgb(149, 149, 250) !important; 
+opacity: 80%;}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3949ab !important; } }
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7; }
+
+.site-bg-img {
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px; }
+
+.hm-gradient .site-bg-img {
+  background: rgba(42, 27, 161, 0.7);
+  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%); }
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem; } }
+
+#pricing .lead {
+  opacity: 0.7; }
+
+#pricing .card-image {
+  background: url("../img/architecture.jpg") no-repeat center center; }
+
+#pricing ul li {
+  font-size: 1.1em; }
